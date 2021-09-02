@@ -1,0 +1,20 @@
+// SCSS TOOLS FOR MULTIPLE PAGES //
+@import
+'../scss/global/fonts', //font imports
+'../scss/global/colors', // std color pallet
+'../scss/global/buttons', //standard pg btns
+'../scss/global/header-footer/header',
+'../scss/global/page-profile';
+
+.first--section-bubble{
+   margin-top: 2.5rem;
+   display: flex;
+   justify-content: center;
+   animation: fadeIn ease 1.5s;
+   @keyframes fadeIn {
+      0% {opacity:.25;}
+      100% {opacity:1;}
+   }
+
+
+}
